@@ -54,6 +54,7 @@ function Login() {
               id="password"
               type="password"
               className="form-input"
+              placeholder="••••••••"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
